@@ -23,12 +23,12 @@
 | 🟩 Object            | 🟩 logical operators  | 🟦 callback           | 🟨 Set              | 🟦 duplicate code    |
 | 🟨 this              | 🟩 bitwise operators  | 🟦 listener           | ⬜️ weak collections | 🟦 exception         |
 | 🟩 arrow function    | 🟩 break, continue    | ⬜️ pipe               | ⬜️ Proxy            | 🟦 return early      |
-| 🟨 generator         | 🟦 switch             | 🟩 memoize            |  🟩 Symbol           | 🟦 linter            |
+| 🟨 generator         | 🟦 switch             | 🟩 memoize            |  🟩 Symbol           | 🟦 linter           |
 | 🟨 async function    | 🟨 new Error          | 🟦 factory            | 🟩 string parsing   | ⬜️ prettier          |
-| 🟨 call, bind, apply |                       | 🟦 pool               | 🟩 timers           | 🟦 unittest          |
-| 🟨 Array             |                       | 🟦 wrapper            | 🟨 EventEmitter     | 🟩 git               |
+| 🟨 call, bind, apply |                       | 🟦 pool               | 🟩 timers           | 🟦 unittest           |
+| 🟨 Array             |                       | 🟦 wrapper            | 🟨 EventEmitter     | 🟩 git                |
 | 🟨 instanceof        |                       | 🟨 default parameters | 🟨 RegExp           | 🟩 github            |
-| 🟨 ...spread         |                       |                       | 🟩 global           | 🟨 node.js           |
+| 🟨 ...spread         |                       |                       | 🟩 global           | 🟨 node.js            |
 | 🟨 ...rest           |                       |                       | 🟩 undefined        | 🟨 npm               |
 | 🟩 typeof            |                       |                       | 🟩 null             |                      |
 
@@ -85,10 +85,10 @@
 
 | Internals            | Theory                       | Network           | Technique        | Problems             |
 |----------------------|------------------------------|-------------------|------------------|----------------------|
-| 🟦 Nonblocking I/O   | 🟦 I/O bound tasks           | 🟦 HTTP(S)        | 🟦 Logging       | 🟦 Memory leaks      |
-| 🟦 Event Loop        | 🟦 CPU bound tasks           | 🟦 TCP/SSL        | 🟦 Testing       | 🟦 Resource leaks    |
-| 🟦 commonjs          | 🟦 Memory bound tasks        | 🟦 UDP            | ⬜ CI/CD         | 🟦 Blocking code     |
-| 🟦 ECMA modules      | 🟦 Multilayer approach       | 🟦 TLS            | 🟦 Readable      | 🟦 Data race         |
+| 🟦 Nonblocking I/O   | 🟦 I/O bound tasks           | 🟩 HTTP(S)        | 🟦 Logging       | 🟦 Memory leaks      |
+| 🟦 Event Loop        | 🟦 CPU bound tasks           | 🟩 TCP/SSL        | 🟦 Testing       | 🟦 Resource leaks    |
+| 🟦 commonjs          | 🟦 Memory bound tasks        | 🟩 UDP            | ⬜ CI/CD         | 🟦 Blocking code     |
+| 🟦 ECMA modules      | 🟦 Multilayer approach       | 🟩 TLS            | 🟦 Readable      | 🟦 Data race         |
 | 🟦 Network API       | 🟦 Separation of concerns    | 🟦 Websocket      | 🟦 Writable      | 🟦 Graceful Shutdown |
 | ⬜ Addons            | 🟦 Inversion of control      | ⬜ SSE            | 🟦 Transform     | 🟦 Dependencies      |
 | ⬜ N-API             | 🟦 Dependency injection      | ⬜ HTTP/3 (QUIC)  | ⬜ back pressure |                      |
